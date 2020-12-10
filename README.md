@@ -4,6 +4,6 @@
   CHEERS
 */
 
-/* Some challenge have their question wriiten before the code
+/* Some challenge's question are embeded before the answer code
   Delete existing code to try for yourself
 */
