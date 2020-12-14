@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <table id="buatAntrianTable" style="width:30%">
+                <tr>
+                    <th>BUAT ANTRIAN</th>
+                </tr>
+                <tr>
+                    <td><button onclick="tambahAntrian(antrian,dokter1)">KLIK BUAT ANTRIAN</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button onclick="tampilkanAntrian(antrian)"> TAMPILKAN ANTRIAN</button>
+            <table id="tampilkanAntrianTable" style="width:30%">
+                <thead>
+                    <tr>
+                        <th>LIST ANTRIAN</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="final-project-0-0-1.js"></script>
+<script>
+    let antrian = buatAntrian()
+    let dokter1 = "Aduy"
+    let dokter2 = "Bambang"
+    let dokter3 = "Cimoy"
+    document.getElementById("d1").innerHTML = dokter1;
+    document.getElementById("d2").innerHTML = dokter2;
+    document.getElementById("d3").innerHTML = dokter3;
+
+</script>
+
+</html>
